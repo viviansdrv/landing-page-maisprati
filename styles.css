@@ -8,10 +8,52 @@ body {
 }
 
 header {
-    background-color: #074d09;
+    background-image: url('/imgs/header-background.png');
+    background-size: cover;
+    background-position: center;
     color: white;
-    padding: 20px;
+    /* Mude a cor do texto para branco para melhor contraste */
     text-align: center;
+    /* Centraliza o texto horizontalmente */
+    padding: 100px 20px;
+    /* Adiciona espaçamento ao redor do texto */
+    position: relative;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    /* Adiciona uma camada de fundo escura semi-transparente */
+}
+
+header h1,
+header p {
+    position: relative;
+    z-index: 1;
+    /* Coloca o texto acima da camada semi-transparente */
+}
+
+#cta-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #f39c12;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    /* Coloca o botão acima da camada semi-transparente */
+}
+
+#cta-button:hover {
+    background-color: #e67e22;
 }
 
 button {
