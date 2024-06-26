@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Projeto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Pet Shop Bicharada</h1>
+        <p>Amor e cuidado para seu pet</p>
+        <button id="cta-button">Saiba Mais</button>
+    </header>
+
+    <section id="produtos">
+        <h2>Nossos Produtos</h2>
+        <div class="produto">
+            <h3>Alimentos</h3>
+            <p>Ração Comum para gatos - R$ 50,00.</p>
+            <p>Ração para gatos castrados - R$ 65,00.</p>
+        </div>
+        <div class="produto">
+            <h3>Acessórios</h3>
+            <p>Bebedouro para gato.</p>
+            <p>Bebedouro para cachorro.</p>
+        </div>
+        <div class="produto">
+            <h3>Banho e Tosa</h3>
+            <p>Para Gatos: R$120,00.</p>
+            <p>Para Cachorros: R$160,00.</p>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Agende uma consulta:</h2>
+        <form id="contact-form">
+            <label for="name">Nome do Tutor:</label>
+            <input type="text" id="name-tutor" name="name-tutor" required>
+
+            <label for="name">Nome do Pet:</label>
+            <input type="text" id="name-pet" name="name-pet" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="date">Para quando você gostaria de agendar?</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
