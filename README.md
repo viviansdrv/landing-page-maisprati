@@ -8,5 +8,5 @@ HTML, CSS e JavaScript.
 
 - Formulário de agendamento de consulta.
 
-### Git Hub Pages
+### GitHub Pages
 https://viviansdrv.github.io/landing-page-maisprati/
