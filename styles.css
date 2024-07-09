@@ -4,7 +4,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: #f4f4f4;
-    color: #333;
+    color: #004615;
 }
 
 header {
@@ -12,11 +12,8 @@ header {
     background-size: cover;
     background-position: center;
     color: white;
-    /* Mude a cor do texto para branco para melhor contraste */
     text-align: center;
-    /* Centraliza o texto horizontalmente */
     padding: 100px 20px;
-    /* Adiciona espaçamento ao redor do texto */
     position: relative;
 }
 
@@ -28,14 +25,12 @@ header::before {
     right: 0;
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
-    /* Adiciona uma camada de fundo escura semi-transparente */
 }
 
 header h1,
 header p {
     position: relative;
     z-index: 1;
-    /* Coloca o texto acima da camada semi-transparente */
 }
 
 #cta-button {
@@ -49,7 +44,6 @@ header p {
     cursor: pointer;
     position: relative;
     z-index: 1;
-    /* Coloca o botão acima da camada semi-transparente */
 }
 
 #cta-button:hover {
